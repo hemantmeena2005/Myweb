@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- ... other meta tags ... -->
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> <!-- Recommended -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    
+    <div id="main" data-scroll-container>
+      
+      <!-- <div id="page1" data-scroll>
+        
+      </div>
+      <div id="page2" data-scroll  >
+        <img
+          data-scroll
+          data-scroll-direction="horizontal"
+          data-scroll-speed="2"
+          src="https://images.unsplash.com/photo-1580314030482-6b3063c92543?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHRyYWl0fGVufDB8fDB8fHww"
+          alt=""
+        />
+        <img data-scroll
+        data-scroll-direction="horizontal"
+        data-scroll-speed="-2"
+        data-scroll-speed="0" src="https://images.unsplash.com/photo-1699134232200-cc757c8d7efa?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBvcnR0cmFpdHxlbnwwfHwwfHx8MA%3D%3D" alt="">
+      </div> -->      
+      <div id="page3" data-scroll>
+        <div id="nav">
+          <a class="magnet" href="/webdev" aria-label="Web development"
+            >website
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              /></svg>
+          </a>
+          <a href="/webdev" aria-label="Web development">branding
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              /></svg>
+          </a>
+          <a href="/webdev" aria-label="Web development">marketing
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              /></svg>
+          </a>
+          <a href="/webdev" aria-label="Web development">work
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              /></svg>
+          </a>
+          <a href="/webdev" aria-label="Web development">us
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              /></svg>
+          </a>
+      </div>
+
+        <!-- <h1
+          data-scroll
+          data-scroll-direction="horizontal"
+          data-scroll-speed="2"
+        >
+          HEMANT MEENA
+        </h1>
+        <h1
+          data-scroll
+          data-scroll-direction="horizontal"
+          data-scroll-speed="4"
+        >
+          HEMANT MEENA
+        </h1>
+        <h1
+          data-scroll
+          data-scroll-direction="horizontal"
+          data-scroll-speed="4"
+        >
+          HEMANT MEENA
+        </h1>
+        <h1
+          data-scroll
+          data-scroll-direction="horizontal"
+          data-scroll-speed="4"
+        >
+          HEMANT MEENA
+        </h1>
+        <h1
+          data-scroll
+          data-scroll-direction="horizontal"
+          data-scroll-speed="1"
+        >
+          HEMANT MEENA
+        </h1> -->
+        <!-- <div id="shape">
+          <div id="shape1"></div>
+          <div id="shape2"></div>
+          <div id="shape3"></div>
+        </div> -->
+      </div>
+      
+    <div id="heading">
+        <h1 class="magnet" >We develop <br>
+          <video src="//cdn.cuberto.com/cb/home/hero/1.mp4" preload="auto" autoplay="" playsinline="" loop="" muted="" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"></video> digital products <br>
+          from scratch</h1>
+    </div>
+
+    <div id="page5">
+        <div class="box">
+          <h1>Website Development</h1>
+          <div class="bottom">
+            <div class="circlebutton">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+              </svg>
+              </div>
+            <p>Creating user-centric websites with mobile first design is our specialty. Take your business online with a premium website, designed for optimal functionality on all devices.</p>
+          </div>
+        </div>
+        <div style="background-color: #B2DECA;" class="box">
+          <h1>SEO / Google Ads</h1>
+          <div class="bottom">
+            <div class="circlebutton">
+              <svg style="fill:#B2DECA;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+              </svg>
+              </div>
+            <p>Stay ahead of the competition and dominate the search engine results with our comprehensive SEO and Google Ads services.</p>
+          </div>
+        </div>
+        <div style="background-color:#F5A091 ;" class="box">
+          <h1>Socials</h1>
+          <div class="bottom">
+            <div class="circlebutton">
+              <svg style="fill: #F5A091;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+              </svg>
+              </div>
+            <p>Unlock the full potential of your brand's reach with our tailored social media strategies designed to maximise visibility & drive traffic</p>
+          </div>
+        </div>
+        <div style="background-color:#F5A091 ;" class="box">
+          <h1>Socials</h1>
+          <div class="bottom">
+            <div class="circlebutton">
+              <svg style="fill: #F5A091;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+              </svg>
+              </div>
+            <p>Unlock the full potential of your brand's reach with our tailored social media strategies designed to maximise visibility & drive traffic</p>
+          </div>
+        </div>
+        <div style="background-color:#F5A091 ;" class="box">
+          <h1>Socials</h1>
+          <div class="bottom">
+            <div class="circlebutton">
+              <svg style="fill: #F5A091;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+              </svg>
+              </div>
+            <p>Unlock the full potential of your brand's reach with our tailored social media strategies designed to maximise visibility & drive traffic</p>
+          </div>
+        </div>
+    </div>
+    <div id="color">
+  <div id="page6">
+    <div id="text">
+      <h1>our work <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+        <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"/>
+      </svg></h1>
+      <h1>our work <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+        <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"/>
+      </svg></h1>
+      <h1>our work <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+        <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"/>
+      </svg></h1>
+      <h1>our work <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+        <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"/>
+      </svg></h1>
+      <h1>our work <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+        <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"/>
+      </svg></h1>
+      
+    </div>
+    <div id="text">
+      <h1>our work <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+        <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"/>
+      </svg></h1>
+      <h1>our work <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+        <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"/>
+      </svg></h1>
+      <h1>our work <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+        <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"/>
+      </svg></h1>
+      
+    </div>
+    <div id="text">
+      <h1>our work <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+        <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"/>
+      </svg></h1>
+      <h1>our work <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+        <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"/>
+      </svg></h1>
+      <h1>our work <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+        <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"/>
+      </svg></h1>
+      
+    </div>      
+  </div>
+  <div id="page7">
+    <div id="one">
+      <div id="circles">
+        <div class="c"></div>
+        <div class="c"></div>
+        <div class="c"></div>
+      </div>
+      <div id="pic">
+
+      </div>
+    </div>
+    <div id="two">
+      <div data-img="https://method.au/Videos/main_petfare.webp" id="ek" class="sec">
+        <h3>Branding/Ecommerce</h3>
+        <h1>Petfare</h1>
+        <div class="sli"></div>
+      </div>
+      <div id="do" data-img="https://method.au/Videos/main_uwa.webp" class="sec">
+        <h3>Web Design</h3>
+        <h1>UWA Water Polo</h1>
+        <div class="sli"></div>
+      </div>
+      <div id="tin" data-img="https://method.au/Videos/beds_main.webp" class="sec">
+        <h3>Ecommerce</h3>
+        <h1>Beds4u</h1>
+        <div class="sli"></div>
+      </div>
+      <div id="char" data-img="https://method.au/Videos/voiceofhope_main.webp" class="sec">
+        <h3>Web Design</h3>
+        <h1>Voice of Hope</h1>
+        <div class="sli"></div>
+      </div> 
+      <div class="btn">
+        <a href="/ourwork" class="bt" aria-label="View all Methods Work" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">View all              
+        </a> 
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
+          <path d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z"/>
+        </svg>  
+      </div>     
+    </div>
+
+  </div>
+  <div id="page8">
+    <div id="left">
+        <div id="on" class="head" onmouseover="changeBackgroundColor('#F5A091','As a small digital marketing agency, we take customer service very seriously and make sure all our websites are made with love and care. Unlike larger companies, we take the time to ensure our clients are satisfied and well taken care of long-term.')">Ongoing support</div>
+        <div id="tw" class="head" onmouseover="changeBackgroundColor('#ABAEDA','Our team of specialists is small but mighty. While larger companies will have you follow up email upon email for minor changes, our team is a tight-knit network, that can easily be reached, and quickly make the changes you want. Not to mention, we have expertise in plenty of different areas, so Method is your one-stop shop for all your digital needs.')" >Solid expertise</div>
+        <div id="th" class="head" onmouseover="changeBackgroundColor('#B2DECA','We know Perth web design inside and out. Method was born and raised right here in Perth, WA, meaning our services are tailor-made to get your business seen online by Perth locals. With tips and tricks on how to appeal to customers and clients around you, Method can help you grow your client base; boosting your sales as a result.')" >Australian</div>
+    </div>
+    <div id="right">As a small digital marketing agency, we take customer service very seriously and make sure all our websites are made with love and care. Unlike larger companies, we take the time to ensure our clients are satisfied and well taken care of long-term.</div>
+</div>
+    </div>
+    <div id="page9">
+      <div class="custom-cursor"></div>
+      <div id="l">
+        <div id="fi">
+          <div id="fi1">
+            <div class="item"></div>
+            <h4>Let's work <br> together</h4>
+            <p>It goes without saying that we love what we do, so we continue to learn and grow
+              every day, instilling that knowledge and innovation into all of our projects. We
+              take every new project as an opportunity to collaborate with our clients and bring
+              their unique vision to life, while still adding our own personal touch as well.</p>
+            
+            <div class="btn">
+                <a href="/ourwork" class="bt" aria-label="View all Methods Work" style="text-decoration: none; color:#B2DECA " >View all              
+                </a> 
+                <svg style="fill: #B2DECA;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
+                  <path d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z"/>
+                </svg>  
+            </div> 
+          </div>
+          <div id="fi2">
+            <div id="google">
+              <div class="googlelogo"></div>
+              <div class="googlestars"></div>
+            </div>
+            <p>“Method did a great job redoing our website. They took the time to listen and
+              really understood what we wanted. He completed the work in super quick time to a
+              very high professional standard. Will definitely recommend”.</p>
+          </div>
+        </div>
+        <div id="se">
+          <div id="se1"></div>
+          <div id="se2"></div>
+        </div>
+      </div>
+      <div id="r"></div>
+    </div>
+    <div id="page4"  >
+      <h1 data-scroll data-scroll-speed="-3" data-scroll-direction="horizontal">
+        REact REact REact REact REact 
+         REact REact REact REact REact REact REact
+      </h1>
+      <h1 style="color: #f5a091">Css css css css css css css css css css</h1>
+      <h1
+        style="color: black"
+        data-scroll
+        data-scroll-speed="3"
+        data-scroll-direction="horizontal"
+      >
+        javascript javascript javascript javascript javascript javascript javascript javascript javascript javascript javascript
+      </h1>
+      <i class="bi bi-arrow-right"></i>
+      <div class="custom-cursor"></div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
+    <!--  Gsap is needed for Basic Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<!-- Scroll Trigger is needed for Scroll Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<!-- Three.js is needed for 3d Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
