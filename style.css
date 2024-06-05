@@ -503,14 +503,40 @@ html , body {
 }
 #se2{
     width: 50%;
+    padding: 30px;
     border-radius: 30px;
     height: 100%;
     background-color: #F5A091;
+}
+#r h4{
+    font-size: 35px;
+}
+#r p{
+    font-size: 17px;
+}
+#se2 h4{
+    font-size: 32px;
+}
+#se1 p{
+    font-size: 13px;
+}
+#se1 h4{
+    font-size: 32px;
+}
+#se2 p{
+    font-size: 16px;
+}
+#se1 , #se2 , #r .btn{
+    max-width: fit-content;
+}
+#r h4{
+    font-size: 55px;
 }
 #r{
     width: 30%;
     background-color: #B2DECA;
     height: 900px;
+    padding: 20px;
     border-radius: 30px;
 }
 .item{
@@ -683,5 +709,7 @@ html , body {
     width: 150px;
     object-fit: cover;
 }
+
+
 
 
